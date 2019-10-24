@@ -1,0 +1,12 @@
+1. javac *.java
+
+2. rmic Adder
+
+3. rmiregistry 5000 
+	in one tab
+
+4. java AddServer
+	in another tab
+
+5. java Client 127.0.0.1
+	in another tab
